@@ -1,14 +1,15 @@
 package org.gdocjdbc;
 
-import java.sql.Connection;
-import java.sql.SQLException;
-import java.util.Properties;
-
 import org.gdocjdbc.db.DBManager;
 import org.hsqldb.Trace;
 import org.hsqldb.jdbc.jdbcConnection;
 import org.hsqldb.persist.HsqlProperties;
 
+import java.sql.Connection;
+import java.sql.SQLException;
+import java.sql.SQLFeatureNotSupportedException;
+import java.util.Properties;
+import java.util.logging.Logger;
 
 
 public class jdbcDriver extends org.hsqldb.jdbcDriver implements java.sql.Driver {
@@ -79,6 +80,11 @@ public class jdbcDriver extends org.hsqldb.jdbcDriver implements java.sql.Driver
 	        && url.regionMatches(true, 0,prefix, 0,
 	        		prefix.length());        
 	    }
-	
-	
+
+    @Override
+    public Logger getParentLogger() throws SQLFeatureNotSupportedException {
+        return null;  //To change body of implemented methods use File | Settings | File Templates.
+    }
+
+
 }

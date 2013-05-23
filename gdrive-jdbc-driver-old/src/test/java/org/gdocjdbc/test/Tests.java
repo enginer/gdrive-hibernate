@@ -17,8 +17,8 @@ public class Tests extends TestCase {
 	@Override
 	protected void setUp() throws Exception {
 		
-		username = System.getProperty("google.user");
-		password = System.getProperty("google.password");
+		username = "y@lebid.org.ua";//System.getProperty("gdocjdbc.username");
+		password = "!QA@WS#ED";//System.getProperty("gdocjdbc.password");
 		
 		if(username == null) {
 			System.out.println("Google Doc account info missing: You have to set the gdocjdbc.username system property (-Dgdocjdbc.username=myname@gdocjdbc.org)");
