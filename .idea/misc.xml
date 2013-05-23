@@ -3,8 +3,20 @@
   <component name="EntryPointsManager">
     <entry_points version="2.0" />
   </component>
-  <component name="IdProvider" IDEtalkID="F0E7591D587F8CF3CE7A687724AB91B9" />
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="1.6" project-jdk-type="JavaSDK">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/gdrive-jdbc-sample" />
+  </component>
+  <component name="IdProvider" IDEtalkID="86189AE551EC7B8817AD0F85CD407B7A" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/gdrive-jdbc-driver/pom.xml" />
+        <option value="$PROJECT_DIR$/gdrive-jdbc-sample/pom.xml" />
+        <option value="$PROJECT_DIR$/gdrive-jdbc-driver-old/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">

@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/jdbc.iml" filepath="$PROJECT_DIR$/jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gdrive-jdbc-driver-new/gdrive-jdbc-driver-new.iml" filepath="$PROJECT_DIR$/gdrive-jdbc-driver-new/gdrive-jdbc-driver-new.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gdrive-jdbc-driver-old/gdrive-jdbc-driver-old.iml" filepath="$PROJECT_DIR$/gdrive-jdbc-driver-old/gdrive-jdbc-driver-old.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gdrive-jdbc-sample/gdrive-jdbc-sample.iml" filepath="$PROJECT_DIR$/gdrive-jdbc-sample/gdrive-jdbc-sample.iml" />
     </modules>
   </component>
 </project>
