@@ -24,6 +24,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="gdrive-hibernate" />
         <module name="gdrive-jdbc-driver-new" />
         <module name="gdrive-jdbc-driver-old" />
         <module name="gdrive-jdbc-sample" />

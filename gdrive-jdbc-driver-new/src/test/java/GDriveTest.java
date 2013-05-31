@@ -20,6 +20,7 @@ public class GDriveTest {
 
     @Test
     public void testAuth() throws GeneralSecurityException, IOException {
+
         /*GoogleCredential credential = new GoogleCredential.Builder().setTransport(HTTP_TRANSPORT).setJsonFactory(JSON_FACTORY)
                 .setServiceAccountId("569342713848@developer.gserviceaccount.com")
                 .setServiceAccountScopes(DriveScopes.DRIVE)
