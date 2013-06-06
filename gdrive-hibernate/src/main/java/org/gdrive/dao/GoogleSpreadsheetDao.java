@@ -6,5 +6,5 @@ import java.util.Iterator;
 import java.util.List;
 
 public interface GoogleSpreadsheetDao {
-    <E> List<E> getAll(Class<E> mappedClass, Iterator<Property> propertyIterator);
+    <E> List<E> getTable(Class<E> mappedClass, String tableKey, Iterator<Property> propertyIterator);
 }

@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="gdrive-jdbc-sample:war">
-    <output-path>$PROJECT_DIR$/gdrive-jdbc-sample/target</output-path>
-    <root id="archive" name="gdrive-jdbc-sample-1.0-SNAPSHOT.war">
-      <element id="artifact" artifact-name="gdrive-jdbc-sample:war exploded" />
-    </root>
-  </artifact>
-</component>

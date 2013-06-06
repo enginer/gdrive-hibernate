@@ -1,6 +1,4 @@
-gdrive-jdbc
+gdrive-hibernate
 ===========
 
-Google Drive (Spreadsheets) JDBC Driver
-
-Based on SQLite jdbc lib https://bitbucket.org/xerial/sqlite-jdbc
+Google Drive (Spreadsheets) Hibernate Implementation

@@ -3,8 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/gdrive-hibernate/gdrive-hibernate.iml" filepath="$PROJECT_DIR$/gdrive-hibernate/gdrive-hibernate.iml" />
-      <module fileurl="file://$PROJECT_DIR$/gdrive-jdbc-driver-new/gdrive-jdbc-driver-new.iml" filepath="$PROJECT_DIR$/gdrive-jdbc-driver-new/gdrive-jdbc-driver-new.iml" />
-      <module fileurl="file://$PROJECT_DIR$/gdrive-jdbc-driver-old/gdrive-jdbc-driver-old.iml" filepath="$PROJECT_DIR$/gdrive-jdbc-driver-old/gdrive-jdbc-driver-old.iml" />
     </modules>
   </component>
 </project>

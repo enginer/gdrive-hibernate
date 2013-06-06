@@ -27,7 +27,8 @@ public class GoogleImportService {
         while ( iterator.hasNext() ) {
             PersistentClass persistentClass = iterator.next();
             Class mappedClass = persistentClass.getMappedClass();
-            List all = googleSpreadsheetDao.getAll(mappedClass, persistentClass.getPropertyIterator());
+            List all = googleSpreadsheetDao.getTable(mappedClass, persistentClass.getTable().getName(),
+                    persistentClass.getPropertyIterator());
             commonDao.saveList(mappedClass, all);
         }
     }

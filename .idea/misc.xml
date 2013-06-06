@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/gdrive-jdbc-driver/pom.xml" />
         <option value="$PROJECT_DIR$/gdrive-jdbc-sample/pom.xml" />
         <option value="$PROJECT_DIR$/gdrive-jdbc-driver-old/pom.xml" />
+        <option value="$PROJECT_DIR$/gdrive-hibernate/pom.xml" />
       </list>
     </option>
   </component>
